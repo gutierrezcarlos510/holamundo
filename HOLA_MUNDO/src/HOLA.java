@@ -5,6 +5,7 @@ public class HOLA {
 		// TODO Auto-generated method stubsyso
 		System.out.println("hola mundo");
 		System.out.println("asd");
+		System.out.println(123);
 		
 	}
 
