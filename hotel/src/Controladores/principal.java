@@ -49,6 +49,7 @@ public class principal {
 				model.addAttribute("msg","Bienvenido, "+usuario.get("nom_per").toString()+" "+usuario.get("priape_per").toString());
 				model.addAttribute("fecha",new fechas().obtenerFechaActualEspaniol());
 				sesion.setAttribute("user", usuario);
+				System.out.println();
 				return "principal/principal";
 			}
 		} catch (Exception e) {
